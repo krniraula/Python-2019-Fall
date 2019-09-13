@@ -10,3 +10,4 @@ Change = Today_Price - Yesterday_Price
 print(f'Symbol: DJI Price: ${Today_Price} Change: ${round(Change,2)} \n \n')
 print(f'Symbol: DJI Price: ${Today_Price} Change: ${round(Change,2)} \n \n')
 print(f"Symbol: DJI --- Yesterday's Price: ${Yesterday_Price}")
+
