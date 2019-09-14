@@ -6,8 +6,7 @@
 
 Today_Price = 26797.46
 Yesterday_Price = 26790.25
-Change = Today_Price - Yesterday_Price
-print(f'Symbol: DJI Price: ${Today_Price} Change: ${round(Change,2)} \n \n')
-print(f'Symbol: DJI Price: ${Today_Price} Change: ${round(Change,2)} \n \n')
-print(f"Symbol: DJI --- Yesterday's Price: ${Yesterday_Price}")
-
+Symbol='DJI'
+print(f'Symbol: {Symbol} Price: ${Today_Price} Change: ${round(Today_Price - Yesterday_Price,2)} \n \n')
+print(f'Symbol: {Symbol} Price: ${Today_Price} Change: ${round(Today_Price - Yesterday_Price,2)} \n \n')
+print(f"Symbol: {Symbol} --- Yesterday's Price: ${Yesterday_Price}")
