@@ -1,5 +1,19 @@
-list_num [12,-3,15,18,21,23,24,26,27,29,29]
-odd_i = 0
-for i in range(0,len(mylist))
-if i % 2
-print(odd)
+
+#Name: Khem Niraula
+#Student ID: 0644115
+#Due Date: November 3, 2019
+#MSITM 6341
+
+list_num = [12, -3, 45, 86, 7, 21,10,56,99,78,63,81,76,455,4887,78555,569,23,455]
+
+#quick cheat
+#print(list_num[::2])
+
+#using loop
+
+limit= len(list_num)
+for limit in range(1,limit,2):
+    print(list_num[limit])
+
+
+#using MOD(%) operator
