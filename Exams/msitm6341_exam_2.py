@@ -54,7 +54,7 @@ def print_item(item):
 
 
 def make_item(user_input, price, description):
-    created_item = {'name' : user_input, 'price' : price, 'description' : description}
+    created_item = {'name' : user_input, 'price' : (price), 'description' : description}
     return(created_item)
 
 print("-------------------------------------------------------")
