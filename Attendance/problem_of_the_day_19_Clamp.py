@@ -1,6 +1,6 @@
 #Name: Khem Niraula
 #Student ID: 0644115
-#Due Date: Octobar 29, 2019
+#Due Date: November 24, 2019
 #MSITM 6341
 
 def clamp(value, min, max):
