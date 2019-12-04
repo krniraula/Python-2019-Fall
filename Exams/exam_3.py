@@ -1,3 +1,9 @@
+# Name: Khem Niraula
+# Student ID: 0644115
+# Due Date: 12/03/2019
+# MSITM 6341
+
+
 #create class rectangle and assign its width and height
 class Rectangle():
     def __init__(self):
@@ -6,7 +12,7 @@ class Rectangle():
 
  #creating function to print its dimensions
     def print_dimension(self):
-         print("The dimensions of the rectangle are" + str(self.width) + "x" + str(self.height))
+         print("The dimensions of the rectangle are " + str(self.width) + " x " + str(self.height))
 
   #creating function to return its area 
     def get_area(self):
