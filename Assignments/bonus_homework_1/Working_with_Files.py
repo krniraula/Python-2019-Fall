@@ -27,4 +27,4 @@ while True:
             for line in read_file:
                 print("Email Address loaded: " + line)
             break
-        breakkhemrajniraula@gmail.com
+        break
